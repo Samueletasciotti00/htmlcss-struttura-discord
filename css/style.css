@@ -6,6 +6,97 @@
 }
 
 /* Header  Settings */
-nav{
-    background-color: ;
+header{
+    /* DEBUG */
+    height: 350px;
+    background-color: darkblue;
+}
+
+header>nav{
+    /* DEBUG */
+    height: 50px;
+    background-color: #add8e6;
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Bar Menu settings */
+
+/* logo */
+#logo{
+    
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    
+    
+    /* DEBUG */
+    padding-left: 10px;
+    border: 1px dashed black;
+    height: 100%;
+    width: 25%;
+
+}
+
+/* login */
+#login{
+
+    /* debug */
+    border: 1px dashed black;
+    height: 100%;
+    width: 25%;
+    padding-right: 10px;
+    
+
+    /* flex */
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+}
+
+
+/* all bar of menu */
+#menu-bar{
+    
+    /* DEBUG */
+    width: 70%;
+    height: 30px;
+    background-color: #daa520;
+    border: 1px dashed black;
+
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* option list */
+#menu-list{
+    list-style: none;
+    width: 25%;
+    /* flex*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* main of header */
+
+#center{
+
+    /* debug */
+    width: 800px;
+    height: 200px;
+    background-color: #fdbec3;
+    border: 1px dashed black;
+    margin: 30px auto;
+
+    /* flex */
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
 }
