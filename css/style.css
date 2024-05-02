@@ -6,6 +6,10 @@
 }
 
 /* Header  Settings */
+
+
+
+
 header{
     /* DEBUG */
     height: 350px;
@@ -103,3 +107,101 @@ header main{
     background-color: #fdbec3;
     border: 1px dashed black;
 } 
+
+
+
+
+
+
+
+
+/* --------------------------------- */
+/* main settings */
+.white-sec{
+    height: 350px;
+
+    /* DEBUG */
+    border: 1px dashed black;
+
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#gray-sec{
+    height: 350px;
+    background-color: #d3d3d3;
+
+    /* DEBUG */
+    border: 1px dashed black;
+
+
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#last-sec{
+    height: 450px;
+
+    /* DEBUG */
+    background-color: #d3d3d3;
+
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+/* color sides */
+.blue-left{
+    background-color: #1e90ff;
+    height: 100%;
+    width: 60%;
+    border: 1px dashed black;
+}
+
+.rose-right{
+    background-color: #fdbec3;
+    height: 100%;
+    width: 40%;
+    border: 1px dashed black;
+}
+
+.rose-left{
+    background-color: #fdbec3;
+    height: 100%;
+    width: 40%;
+    border: 1px dashed black;
+}
+
+.blue-right{
+    background-color: #1e90ff;
+    height: 100%;
+    width: 60%;
+    border: 1px dashed black;
+}
+/* -----END   colorside---- */
+
+/* BOX SETTINGS */
+.box{
+    /* DEBUG */
+    height: 250px;
+    width: 70%;
+
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#green-box{
+    height: 400px;
+    width: 70%;
+    background-color: #228b22;
+}
