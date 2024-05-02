@@ -86,17 +86,20 @@ header>nav{
 
 /* main of header */
 
-#center{
-
-    /* debug */
-    width: 800px;
-    height: 200px;
-    background-color: #fdbec3;
-    border: 1px dashed black;
-    margin: 30px auto;
+header main{
+    height: 300px;
 
     /* flex */
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-around;
 }
+
+#center{
+
+    /* debug */
+    width: 60%;
+    height: 200px;
+    background-color: #fdbec3;
+    border: 1px dashed black;
+} 
