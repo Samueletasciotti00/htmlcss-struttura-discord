@@ -291,5 +291,18 @@ FOOTER SETTINGS
     height: 30px;
     background-color: lightgreen;
     border: 1px dashed red;
+
+    /*flex */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#bs-logo, #bottone{
+    /* DEBUG */
+    height: 25px;
+    width: 50px;
+    background-color: tomato;
+    border: 1px solid black;
 }
 
