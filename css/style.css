@@ -6,33 +6,6 @@
 }
 
 /* Header  Settings */
-
 nav{
-    margin: 40px;
-    margin-top: 15px;
-    display: flex;
-    justify-content: space-between;
+    background-color: ;
 }
-
-/* Nav*/
-#logo{
-     /* DEBUG */
-
-    /* min-height: 30px;
-    max-width: 60px; */
-    background-color: black;
-    border: 1px solid red;
-
-    /* Rules */
-    width: 100px;
-    height: 50px;
-}
-
-/* Nav Menu */
-#menu{
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-}
-
-/* Main */
