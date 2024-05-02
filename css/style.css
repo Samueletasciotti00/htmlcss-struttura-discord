@@ -5,9 +5,13 @@
     box-sizing: border-box;
 }
 
-/* Header  Settings */
+/* ----------------------- */
 
+/* 
 
+HEADER SETTINGS
+
+*/
 
 
 header{
@@ -108,15 +112,15 @@ header main{
     border: 1px dashed black;
 } 
 
-
-
-
-
-
-
-
 /* --------------------------------- */
-/* main settings */
+
+/*
+
+MAIN SETTINGS
+
+*/
+
+
 .white-sec{
     height: 350px;
 
@@ -204,4 +208,33 @@ header main{
     height: 400px;
     width: 70%;
     background-color: #228b22;
+}
+
+
+/* ---------------------------- */
+
+/* 
+
+FOOTER SETTINGS
+
+*/
+
+
+#container{
+    height: 400px;
+
+    /* DEBUG*/
+    padding-top: 10px;
+    padding-left: 25%;
+    background-color: black;
+
+    
+}
+
+#column{
+
+    /* DEBUG */
+    height: 250px;
+    width: 70%;
+    background-color: tomato;
 }
